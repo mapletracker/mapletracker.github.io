@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form onsubmit="return false;">
+            캐릭터명 : <input id="character_name" type="text" onKeypress="javascript:if(event.keyCode==13) { findMainCharacter() }" />
+            <input type="button" id="find" value="찾기" onclick="findMainCharacter()" />
+        </form>
+        <div id="result"></div>
+        <div id="uuu"></div>
+        <script type="text/javascript" src="../js/main.js"></script>
+    </body>
+</html>
