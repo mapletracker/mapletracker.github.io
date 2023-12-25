@@ -1,0 +1,15 @@
+{
+  "name": "maplestory",
+  "version": "1.0.0",
+  "description": "maplestory api test",
+  "type" : "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "kku",
+  "license": "ISC"
+}
